@@ -61,11 +61,13 @@ a {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
+
 a:hover {
     text-decoration: none;
     color: rgb(155, 0, 0);
     text-decoration: wavy;
-    padding: 2.5rem;
+    padding: 1rem;
+    border: dashed 2px rgb(155, 0, 0);
 }
 
 
