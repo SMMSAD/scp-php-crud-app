@@ -11,7 +11,7 @@
   <body class="container">
       <?php include "connection.php"; ?>
       <header class=""> 
-          <a href="index.php"><img src="images/scpLogoWhite.png" alt="scp logo" class="logo"></a>
+          <a href="index.php" class="null-brdr" ><img src="images/scpLogoWhite.png" alt="scp logo" class="logo"></a>
           <br>
           <?php foreach($result as $link): ?>
               <a href="index.php?link=<?php echo $link['subject']; ?>" class=""><?php echo $link['subject']; ?></a> <!-- nav-link text-light -->

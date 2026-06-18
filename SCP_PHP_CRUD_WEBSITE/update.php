@@ -84,7 +84,7 @@
         <input type="text" name="subject" placeholder="subject..." class="form-control" value="<?php echo isset($row['subject']) ? $row['subject'] : ''; ?>">
         <br><br>
         
-        <label>class:</label>
+        <label>Class:</label>
         <br>
         <input type="text" name="class" placeholder="class..." class="form-control" value="<?php echo isset($row['class']) ? $row['class'] : ''; ?>">
         <br><br>
@@ -94,14 +94,14 @@
         <textarea name="description" class="form-control"><?php echo isset($row['description']) ? $row['description'] : ''; ?></textarea>
         <br><br>
         
-        <label>SCP containment:</label>
+        <label>Special Containment Procedures:</label>
         <br>
         <textarea name="containment" class="form-control"><?php echo isset($row['containment']) ? $row['containment'] : ''; ?></textarea>
         <br><br>
         
-        <label>Image:</label>
+        <label>Image path/URL:</label>
         <br>
-        <input type="text" name="image" placeholder="images/name_of_image.png" class="form-control" value="<?php echo isset($row['image']) ? $row['image'] : ''; ?>">
+        <input type="text" name="image" placeholder="images/name_of_image.png or URL of image" class="form-control" value="<?php echo isset($row['image']) ? $row['image'] : ''; ?>">
         <br><br>
         
         <input type="submit" name="update" value="Update Record" class="btr-btn whtblk">

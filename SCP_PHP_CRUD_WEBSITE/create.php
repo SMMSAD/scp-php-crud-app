@@ -42,29 +42,29 @@
     <p><a href="index.php" class="btr-btn">Back to index page.</a></p>
     <div class="midground-box"> <!-- p-3 bg-light border shadow -->
         <form method="post" action="create.php" class="midground-box">
-            <label>Enter subject ID:</label>
+            <label>Enter Subject ID:</label>
             <br>
             <input type="text" name="subject" placeholder="subject ID..." class="form-control" required>
             <br><br>
             
-            <label>Enter class:</label>
+            <label>Enter Class:</label>
             <br>
             <input type="text" name="class" placeholder="class..." class="form-control">
             <br><br>
             
-            <label>Enter description:</label>
+            <label>Enter Description:</label>
             <br>
             <textarea name="description" class="form-control">Enter description:</textarea>
             <br><br>
             
-            <label>Enter containment:</label>
+            <label>Enter Special Containment Procedures:</label>
             <br>
             <textarea name="containment" class="form-control">Enter containment:</textarea>
             <br><br>
             
-            <label>Enter image:</label>
+            <label>Enter Image path/URL:</label>
             <br>
-            <input type="text" name="image" placeholder="images/nameofimage.png..." class="form-control">
+            <input type="text" name="image" placeholder="images/name_of_image.png or URL of image" class="form-control">
             <br><br>
             
             <input type="submit" name="submit" value="Create Record" class="btr-btn whtblk">
